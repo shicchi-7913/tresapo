@@ -1,0 +1,17 @@
+{
+  "name": "tresapo-site",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/assets/css/tailwind.css -o ./dist/assets/css/main.css",
+    "build:11ty": "eleventy",
+    "build": "pnpm run build:css && pnpm run build:11ty",
+    "dev:11ty": "eleventy --serve",
+    "dev:css": "tailwindcss -i ./src/assets/css/tailwind.css -o ./dist/assets/css/main.css --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
+  }
+}
