@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy("add-ads.txt");
+  eleventyConfig.addPassthroughCopy("app-ads.txt");
   eleventyConfig.addFilter("date", (value, format = "yyyy") => {
     const date =
       value === "now" || value === undefined || value === null
