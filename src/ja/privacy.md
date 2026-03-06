@@ -1,7 +1,8 @@
 ---
 layout: layout.njk
 title: トレサポ プライバシーポリシー
-permalink: /privacy.html
+lang: ja
+permalink: /ja/privacy.html
 description: トレサポにおける利用者情報の取り扱いについて。
 ---
 

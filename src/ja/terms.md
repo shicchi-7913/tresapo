@@ -1,7 +1,8 @@
 ---
 layout: layout.njk
 title: トレサポ 利用規約
-permalink: /terms.html
+lang: ja
+permalink: /ja/terms.html
 description: トレサポの利用条件を定めた規約です。
 ---
 
