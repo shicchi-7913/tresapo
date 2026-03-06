@@ -4,15 +4,10 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          "\"Zen Kaku Gothic New\"",
+          "\"M PLUS Rounded 1c\"",
           "\"Hiragino Kaku Gothic ProN\"",
           "Meiryo",
           "sans-serif"
-        ],
-        serif: [
-          "\"Shippori Mincho\"",
-          "\"Hiragino Mincho ProN\"",
-          "serif"
         ]
       },
       colors: {
@@ -21,8 +16,8 @@ module.exports = {
           700: "#2d2d32"
         },
         accent: {
-          500: "#f97316",
-          600: "#ea580c"
+          500: "#3b82f6",
+          600: "#2563eb"
         }
       },
       boxShadow: {
