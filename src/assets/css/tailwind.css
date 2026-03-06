@@ -14,11 +14,11 @@
 
 @layer components {
   .content h1 {
-    @apply text-3xl md:text-4xl font-serif font-semibold tracking-tight mt-8;
+    @apply text-3xl md:text-4xl font-sans font-semibold tracking-tight mt-8;
   }
 
   .content h2 {
-    @apply text-2xl md:text-3xl font-serif font-semibold tracking-tight mt-10;
+    @apply text-2xl md:text-3xl font-sans font-semibold tracking-tight mt-10;
   }
 
   .content p {
